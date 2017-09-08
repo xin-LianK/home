@@ -1,0 +1,115 @@
+@font-face{
+	font-family:'Lato';
+	font-style:normal;
+	font-weight:900;
+	src:url(../font/lato900.woff)
+}
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0
+}
+body{
+	background-color:#22C3AA;
+	color:#fff;
+	position:relative;
+	font-family:Lato;
+}
+
+
+// 主页
+#head{
+	position:absolute;
+	font-size:1.2rem;
+	padding:0 10px
+	background: red;
+}
+#head li{
+	display:inline-block;
+	padding:5px 10px;height:45px;
+	-webkit-transition:1s;
+	transition:1s
+}
+#head li:before{
+	content:'';
+	display:block;
+	width:100%;
+	height:3px;
+	position:relative;
+	top:-5px
+}
+#head li:hover:before{
+	background-color:#fff
+}
+#head li a{
+	color:#EFEFEF;
+	text-decoration:none
+}
+#head li a:hover{
+	color:#fff
+}
+
+#home{
+	text-align: center;
+	color: #eef3f0;
+	padding: 200px;
+	transition: 0.5s;
+	box-sizing: border-box;
+	font-family: Lato,"Microsoft YaHei",sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+#home img{
+	width: 200px;
+	height: 200px;
+	border: 10px solid #ccc;
+	border-radius: 50%;
+}
+#title{
+	margin: 0.25em 0 0 0;
+	text-shadow: 1px 2px #ccc,2px 4px #ccc;
+    text-align: center;
+    font-size: 3.5em;
+}
+#subtitle{
+	margin: 1em 0 0.25em 0;
+    color: #ccc;
+    font-size: 1.1em;
+}
+#home h4{
+	font-size: 1.25em;
+    margin: 0 0 0.1em 0;
+    margin-top: 0;
+}
+#home p a{
+    color: #008a75;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#home p a:hover{
+	color: #9f3;
+}
+
+
+
+// 微信二维码页面
+#weixin{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: #eef3f0;
+}
+.weixin{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin:auto;
+}
